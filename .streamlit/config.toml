@@ -1,0 +1,16 @@
+# Base oscura de la aplicación. El acento de cada video se aplica encima por CSS
+# (src/estilo.py); esto es solo el punto de partida, para que los controles nativos
+# de Streamlit no aparezcan en claro durante el primer instante de carga.
+
+[theme]
+base = "dark"
+primaryColor = "#E4B45C"
+backgroundColor = "#08080A"
+secondaryBackgroundColor = "#121215"
+textColor = "#EDEDEF"
+
+[browser]
+gatherUsageStats = false
+
+# El puerto NO se fija aquí a propósito: en local lo pasa `run.bat` (8520) y en Streamlit
+# Cloud lo asigna el servidor. Dejarlo escrito rompería la app publicada.

@@ -1,0 +1,17 @@
+# NUNCA subir secretos. La llave de la API va en el panel "Secrets" de Streamlit Cloud,
+# nunca en el repositorio.
+.streamlit/secrets.toml
+*.env
+.env*
+!.env.ejemplo
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# La caché y el historial se generan solos al usar la app.
+# Ojo: los archivos que SÍ se suban a mano quedan disponibles en la app publicada, y esa
+# es la forma de que una demo funcione aunque YouTube bloquee al servidor.
+cache/visual/
+historial/

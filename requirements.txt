@@ -1,0 +1,7 @@
+streamlit>=1.58
+anthropic>=0.112
+youtube-transcript-api>=1.2
+yt-dlp>=2026.7
+python-dotenv>=1.0
+requests>=2.31
+pillow>=10.0
